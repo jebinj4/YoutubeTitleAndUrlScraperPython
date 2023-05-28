@@ -3,7 +3,6 @@ import pandas as pd
 
 p = input("Enter URL of Playlist=")
 
-# https://youtu.be/SFgWa5G0VAE
 # https://www.youtube.com/playlist?list=PLvr5U5ZSt6IzHyvSL9fo0M9NRPsTvra31
 
 vlinks = Playlist(p)
@@ -16,7 +15,7 @@ print("Playlist ID =", vlinks.playlist_id)
 
 data = {'Title': [], 'Link': []}
 dataframe = pd.DataFrame(data)
-
+ 
 vtitles = []
 for link in vlinks:
     video = YouTube(link)

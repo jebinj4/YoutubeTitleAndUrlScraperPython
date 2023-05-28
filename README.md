@@ -11,3 +11,7 @@ pip install pytube
 
 pip install openpyxl
 
+Use the Playlist Url as 
+https://www.youtube.com/playlist?list=<PlayListID>
+
+  Replace <PlayListID> with the youtube playlist ID
